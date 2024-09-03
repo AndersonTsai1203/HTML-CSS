@@ -45,35 +45,35 @@ Please build a page in `task3/index.html`. Welcome to create as many CSS files t
 * The asset(s) are provided in `task3/assets`.
 * The font doesn't have to match exactly. Use font-family `Arial` for the page.
 
-## 3. Analysing the pages
+## 2. Analysing the pages
 
-### 3.1. Analysing the Pages
+### 2.1. Analysing the Pages
 
 Two things will want to seek external help for are:
 
 1) Determining the particular colour (RGB or HEX) of various pixels (Recommend the use of [a chrome extension](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka/), though other alternatives may be appropriate for you)
 2) Determining the size of particular elements (Recommend the use of [photopea](https://www.photopea.com/)). An screenshot example of it's usage can be found [here](./help/photopea.png)
 
-### 3.2. Font Sizes
+### 2.2. Font Sizes
 
 it might be curious to know what the correct font-size and other font properties are for this assessment. Part of this assessment is trying to explore the relationship between how a font looks and the properties that are set for the element.
 
 Generally the best approach is to set a basic font size (e.g. `font-size: 1.1em`), see how it looks, and if it just generally seems too big or too small, then adjust the `em` or `rem` value appropriately until the developer is comfortable with it.
 
-## 4. Constraints & Assumptions
+## 3. Constraints & Assumptions
 
-### 4.1. Correct viewing settings
+### 3.1. Correct viewing settings
 
 Don't forget to put this code in the head of each webpage you make: `<meta name="viewport" content="width=device-width, initial-scale=1.0">`. It will help on mobile responsive view get the right zoom.
 
-### 4.2. Fair use of methods
+### 3.2. Fair use of methods
 
 It is prohibited from unreasonable use of images and svg to solve your problem - more specifically, do not upload large chunks of the 'page' as just a single SVG image or single JPG.
 
-### 4.3. Browser Compatibility
+### 3.3. Browser Compatibility
 
 Ensure that the programs are tested on Google Chrome, ensuring that they are run in the latest version.
 
-### 4.4. External libraries
+### 3.4. External libraries
 
 It is restricted from using any third party CSS libraries during the implementation. Basically, this means try not to import code using the `<script />` and `<link />` tags if it's from a file written  by someone else.
