@@ -1,0 +1,354 @@
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 673px; height: 3034px;
+	margin: 15px 20px 0px 20px;
+	font-family: Arial;
+}
+#free-box {
+	width:633px; height: 705px;
+	border-radius: 10px;
+	border: 1px solid rgb(210,213,217);
+}
+.title-box {
+	width:600px;
+	margin: 40px 40px 10px 40px;
+	font-size: 160%;
+}
+.description {
+	width:525px;
+	color: rgb(82,82,82);
+	font-size: 125%;
+	margin: 5px 40px 0px 40px;
+	line-height: 1.5;
+}
+.price-box {
+	font-size: 300%;
+	margin: 20px 40px 25px 40px;
+}
+#choose-free-button {
+	width: 170px; height: 65px;
+	border-radius: 50px;
+	border: 2px solid black;
+	margin: 25px 30px 25px 40px;
+	font-size: larger;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 65px;
+}
+.inclusion-box {
+	margin: 0px 40px 0px 40px;
+}
+.inclusion-title {
+	font-size: 120%;
+	color: rgb(82,82,82);
+	margin-bottom: 10px;
+}
+.inclusion-content {
+	font-size: 120%;
+	color: rgb(82,82,82);
+	vertical-align: middle;
+	text-align: left;
+	line-height: 35px;
+}
+.tick {
+	fill: rgb(92,92,92);
+}
+#free-feature-table {
+	color: rgb(149,149,149);
+	margin: 20px 40px 30px 40px;
+}
+.down-vector {
+	display: initial;
+	fill: rgb(149,149,149);
+	font-size: 150%;
+	vertical-align: 25%;
+}
+#team-box {
+	width:633px; height: 740px;
+	border-radius: 10px;
+	border: 1px solid rgb(210,213,217);
+}
+#team-header {
+	display: flex;
+	align-items: center;
+	width:310px;
+	margin: 45px 0px 0px 40px;
+}
+#team-title {
+	width: 100px;
+	font-size: 160%;
+}
+#team-subtitle {
+	display: none;
+}
+#team-bill-counting-box {
+	display: flex;
+	flex-direction: row;
+	margin: 10px 40px 10px 40px;
+}
+.bill-font {
+	font-size: 300%;
+	margin: 0px 15px 0px 0px;
+}
+.bill-counting {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 120%; color: rgb(82,82,82);
+}
+.bill-monthly {
+	display: none;
+}
+.dollar {
+	color: black;
+}
+#choose-team-button {
+	width: 185px; height: 65px;
+	background-color: white;
+	border-radius: 50px;
+	border: 2px solid black;
+	margin: 25px 30px 30px 40px;
+	font-size: larger;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 65px;
+}
+#team-feature-table {
+	color: rgb(149,149,149);
+	margin: 20px 40px 35px 40px;
+}
+#pro-box {
+	width:633px; height: 785px;
+	border-radius: 10px;
+	border: 1px solid rgb(210,213,217);
+}
+#pro-bill-counting-box {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 40px 30px 40px;
+}
+#choose-pro-button {
+	width: 170px; height: 65px;
+	border-radius: 50px;
+	border: 2px solid black;
+	margin: 10px 30px 20px 40px;
+	font-size: larger;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 65px;
+}
+#or {
+	display: none;
+}
+#contact {
+	display: none;
+}
+#pro-feature-table {
+	color: rgb(149,149,149); 
+	margin: 20px 40px 30px 40px;
+}
+#enterprise-box {
+	width:633px; height: 710px;
+	color: rgb(252,252,252);
+	background-color: rgb(51, 51, 51);
+	border-radius: 10px;
+	border: 1px solid rgb(51, 51, 51);;
+}
+#enterprise-description {
+	width:550px;
+	color: white;
+	font-size: 125%;
+	margin: 5px 40px 0px 40px;
+	line-height: 1.5;
+}
+#enterprise-price {
+	fill: rgb(153,153,153);
+	margin: 20px 40px 30px 40px;
+}
+#contact-sales-button {
+	width: 210px; height: 65px;
+	background-color: white;
+	border-radius: 50px;
+	border: 2px solid white;
+	margin: 10px 40px 25px 40px;
+	font-size: larger; color: rgb(51, 51, 51);
+	text-align: center;
+	vertical-align: middle;
+	line-height: 65px;
+}
+#enterprise-inclusion-title {
+	font-size: 120%;
+	margin-bottom: 10px;
+}
+#pro {
+	display: none;
+}
+#business {
+	display: initial;
+}
+#enterprise-inclusion-content {
+	color: white;
+	font-size: 120%;
+	vertical-align: middle;
+	text-align: left;
+	line-height: 35px;
+}
+.enterprise-tick {
+	fill: white;
+}
+#enterprise-feature-table {
+	color: rgb(156,156,156);
+	margin: 15px 40px 30px 40px;
+}
+@media (min-width: 1595px){
+	#container {
+		flex-direction: row;
+		width: 1595px; height: 895px;
+		margin: 35px 0px 30px 0px;
+	}
+	#free-box {
+		width:370px; height: 830px;
+	}
+	.title-box {
+		width:300px;
+		margin: 40px 30px 0px 30px;
+		font-size: 200%;
+	}
+	.description {
+		width:300px;
+		font-size: 100%;
+		margin: 12px 30px 0px 30px;
+	}
+	.price-box {
+		font-size: 500%;
+		margin: 75px 30px 80px 30px;
+	}
+	#choose-free-button {
+		width:310px;
+		margin: 40px 30px 80px 30px;
+	}
+	.inclusion-box {
+		margin: 0px 30px 0px 30px;
+	}
+	.inclusion-title {
+		font-size: 120%;
+		margin-bottom:10px;
+	}
+	.inclusion-content {
+		font-size: 100%;
+		line-height: 20px;
+	}
+	#free-feature-table {
+		display: none;
+	}
+	.down-vector {
+		display: none;
+		vertical-align: 20%;
+	}
+	#team-box {
+		width:370px; height: 830px;
+	}
+	#team-header {
+		margin: 40px 30px 10px 30px;
+	}
+	#team-title {
+		font-size: 200%;
+	}
+	#team-subtitle {
+		display: initial;
+		width: 90px;
+		font-size: 90%; color: rgb(82,82,82);
+		background-color: rgb(207,245,209);
+		border-radius: 50px;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 25px;
+	}
+	#team-bill-counting-box {
+		margin: 75px 30px 20px 30px;
+	}
+	.bill-font {
+		font-size: 500%;
+		margin: 0px 30px 0px 0px;
+	}
+	.bill-counting {
+		font-size: 110%;
+	}
+	.bill-monthly {
+		display: initial;
+		font-size: 110%; color: rgb(82,82,82);
+		margin: 35px 30px 35px 30px;
+	}
+	#choose-team-button {
+		width:310px; color: white;
+		background-color: rgb(22,110,225);
+		border: 0px solid black;
+		margin: 40px 30px 80px 30px;
+	}
+	#team-feature-table {
+		display: none;
+	}
+	#pro-box {
+		width:370px; height: 830px;
+	}
+	#pro-bill-counting-box {
+		margin: 50px 30px 20px 30px;
+	}
+	#choose-pro-button {
+		width:310px;
+		margin: 40px 30px 30px 30px;
+	}
+	#pro-contact {
+		width: 310px;
+		margin: 10px 30px 30px 30px;
+		text-align: center;
+	}
+	#or {
+		display: inline-block;
+		color: rgb(149,149,149);
+	}
+	#contact {
+		display: inline-block;
+		color: rgb(98,98,98);
+		border-bottom: 1px solid rgb(210,213,217);
+	}
+	#pro-feature-table {
+		display: none;
+	}
+	#enterprise-box {
+		width:370px; height: 830px;
+	}
+	#scale {
+		display: none;
+	}
+	#enterprise-description {
+		width:300px; font-size: 100%;
+		margin: 12px 30px 0px 30px;
+	}
+	#enterprise-price {
+		margin: 80px 30px 70px 30px;
+	}
+	#contact-sales-button {
+		width:310px; 
+		margin: 30px 30px 80px 30px;
+	}
+	#enterprise-inclusion-title {
+		font-size: 120%;
+		margin-bottom: 10px;
+	}
+	#pro {
+		display: initial;
+	}
+	#business {
+		display: none;
+	}
+	#enterprise-inclusion-content {
+		font-size: 100%;
+		line-height: 20px;
+	}
+	#enterprise-feature-table {
+		display: none;
+	}
+}
